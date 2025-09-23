@@ -9,12 +9,10 @@ public class Greatestnum {
 		float a = sc.nextFloat();
 		float b = sc.nextFloat();
 		float c = sc.nextFloat();
+		float big;
 
-		if(a > b && a > c)
-			System.out.println(a + " is the greatest number");
-		else if(a < b && b > c)
-			System.out.println(b + " is the greatest number");
-		else
-			System.out.println(c + " is the greatest number");
+		big = a>b? (a>c? a:c) : (b>c? b:c);
+		
+		System.out.println(big+" is the greatest number.");
 	}
 }
