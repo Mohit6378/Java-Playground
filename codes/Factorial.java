@@ -8,15 +8,9 @@ public class Factorial {
 
 		int num = sc.nextInt();
 		int fact = 1;
-
-		for(int i=1; i<=num; i++) {
 		
-		if(num > 1)	
-		fact = fact*(i);
-		
-		else
-		num = 1;
-		}
+		if(num > 1)
+		for(; num > 1; fact *= num--); 
 
 		System.out.println("The factorial is: " + fact);
 	}
