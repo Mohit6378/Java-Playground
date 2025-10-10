@@ -19,7 +19,7 @@ public class ReverseInt {
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Enter positive integer you want to reverse.");
+		System.out.println("Enter integer you want to reverse.");
 		int num = sc.nextInt();
 
 		int reversed = Reverse.reverse(num);
