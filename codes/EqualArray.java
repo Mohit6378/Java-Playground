@@ -14,6 +14,7 @@ public class EqualArray {
 		int[] a = new int[5];
 		int[] b = new int[5];
 		boolean equality = false;
+		//boolean equality  = Arrays.equals(a, b);
 
 		System.out.println("Enter integers for first array.");
 		CreateArray.create(a, sc);
